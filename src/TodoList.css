@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Caveat', cursive;
+    background-color: #fff0dd;
+}
+
+.App{
+    margin: 10%;
+    border: solid 1px #fd8b00;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #fd8b00;
+}
+
+h1{
+    font-size: 40px;
+    margin: 15px 0;
+    text-align: center;
+    color: #fd8b00;
+}
+
+ul {
+    list-style-type: none;
+    margin: 15px 0;
+    text-align: center;
+    padding: 0;
+    font-size: 25px;
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.new-note{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 60%;
+    border: solid 1px #000000;
+    border-radius: 5%;
+}
+
+button {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    height: 30px;
+    width: 30%;
+    line-height: 30px;
+    background-color: #ffd8a9;
+    border: solid 1px #fd8b00;
+    border-radius: 5%;
+    color: #000000;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffc680;
+
+}
