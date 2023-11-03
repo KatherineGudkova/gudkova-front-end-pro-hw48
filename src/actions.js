@@ -1,15 +1,18 @@
 export const ADD_TODO = "ADD_TODO";
 export const TOGGLE_TODO = "TOGGLE_TODO";
+export const ADD_TODOS_FROM_API = "ADD_TODOS_FROM_API";
 
-export const addTodo = (text) => ({
+export const addTodo = (todo) => ({
     type: ADD_TODO,
-    payload: {
-        text,
-        completed: false,
-    },
+    payload: todo,
 });
 
-export const toggleTodo = (index) => ({
+export const toggleTodo = (id) => ({
     type: TOGGLE_TODO,
-    payload: index,
+    payload: id,
+});
+
+export const addTodosFromApi = (todos) => ({
+    type: ADD_TODOS_FROM_API,
+    payload: todos,
 });
